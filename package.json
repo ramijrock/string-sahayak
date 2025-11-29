@@ -8,10 +8,18 @@
   },
   "keywords": [],
   "author": "",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^24.10.1",
     "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramijrock/string-sahayak.git"
+  },
+  "homepage": "https://github.com/ramijrock/string-sahayak#readme",
+  "bugs": {
+    "url": "https://github.com/ramijrock/string-sahayak/issues"
   }
 }
