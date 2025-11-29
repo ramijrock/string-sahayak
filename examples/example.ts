@@ -12,6 +12,8 @@ import {
   maskEmail,
   maskAadhaar,
   maskString,
+  maskPAN,
+  maskCustom,
   removeSpaces,
   removeExtraSpaces,
   onlyNumbers,
@@ -36,6 +38,8 @@ console.log(maskPhone("9876543210"));          // 987****210
 console.log(maskEmail("ramij@example.com"));   // r***@example.com
 console.log(maskAadhaar("123412341234"));      // 1234 **** 1234
 console.log(maskString("password123", 1));     // p**********
+console.log(maskPAN("ABCDE1234F"));            // A****1234F
+console.log(maskCustom("abcdef", 2, 4));       // ab**ef
 
 // ------------ Cleaning Examples ----------------
 

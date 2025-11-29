@@ -20,6 +20,9 @@ Built with ❤️ by Ramij Dafadar.
 - `maskEmail("ramij@example.com")` → `r***@example.com`
 - `maskAadhaar("123412341234")` → `1234 **** 1234`
 - `maskString("password123", 1)` → `p**********`
+- `maskPAN("ABCDE1234F")` → `A****1234F`
+- `maskCustom("abcdef", 2, 4)` → `ab**ef`
+
 
 ### ✂️ Cleaning
 - `removeSpaces("a b c")` → `abc`
